@@ -4,12 +4,14 @@ Welcome to the Medical Image Analysis Repository! Here, we leverage advanced mac
 
 ## 💓 [Whole Heart Segmentation from CT and MRI Scans](./Whole-Heart-Segmentation.ipynb)
 
+![Whole Heart Segmentation](Sample_Mask_Overlay.png)
+
 - **Overview**: 🩺 Segmentation of the whole heart from CT and MRI scans.
 - **Dataset**: 📊 20 patients, total of 5305 CT scans.
 - **Performance Metrics 📈**: 
-  - **Accuracy**: 75%
-  - **IoU**: 55%
-  - **Dice Coefficient**: 70%
+  - **Accuracy**: 75.63%
+  - **IoU**: 51.23% (Max 88.68%)
+  - **Dice Coefficient**: 65.5% (Max 93.82%)
 - **Key Insights**: 🔍
   - The current dataset of 20 patients is insufficient for building a reliable model.
   - It's more effective to treat the scans as full 3D samples per patient instead of operating on a 2D slide-by-slide basis. This approach leads to unstable performance with the current dataset size.
