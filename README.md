@@ -36,6 +36,8 @@ Welcome to the Medical Image Analysis Repository! Here, we leverage advanced mac
 
 
 - **Overview**: 🩺 Detection of kidney stones in abdominal CT scans using YOLOv8.
+  - Our model tends to outperform the original annotation in some cases, as can be seen in the sample image above where it detected a seemingly newly developing stone.
+
 - **Dataset**: 📊 Over 1000 images of abdominal section scans showing the kidneys.
 - **Performance Metrics 🎯**:
   - **Precision**: 0.772
