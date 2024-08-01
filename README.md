@@ -27,3 +27,33 @@ Welcome to the Medical Image Analysis Repository! Here, we leverage advanced mac
   - [2] Xiahai Zhuang: Multivariate mixture model for myocardial segmentation combining multi-source images. IEEE Transactions on Pattern Analysis and Machine Intelligence 41(12): 2933-2946, 2019. link code
   - [3] X Luo & X Zhuang: X-Metric: An N-Dimensional Information-Theoretic Framework for Groupwise Registration and Deep Combined Computing. IEEE Transactions on Pattern Analysis and Machine Intelligence 45(7): 9206 - 9224, 2023 (IF: 24.314) link code
   - [4] F Wu & X Zhuang. Minimizing Estimated Risks on Unlabeled Data: A New Formulation for Semi-Supervised Medical Image Segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence (T PAMI) 45(5): 6021 - 6036, 2023 link code
+
+
+## 🟢 [Kidney Stone Object Detection](./kidney-stone-detection.ipynb)
+
+![Sample Pred 1](KS1.png)
+![Sample Pred 2](KS2.png)
+
+
+- **Overview**: 🩺 Detection of kidney stones in abdominal CT scans using YOLOv8.
+- **Dataset**: 📊 Over 1000 images of abdominal section scans showing the kidneys.
+- **Performance Metrics 🎯**:
+  - **Precision**: 0.772
+  - **Recall**: 0.711
+  - **mAP@50**: 0.74
+
+- **Key Insights**: 🔍
+  - The model effectively detects kidney stones with a balanced precision and recall.
+  - Fine-tuning the YOLOv8 parameters significantly improved detection performance.
+
+- **Techniques Used**:
+  - 🛠️ Data Preprocessing: Image normalization and augmentation in YOLO.
+  - 🧠 Model Architecture: YOLOv8 for efficient object detection.
+  - 🧮 Evaluation Metrics: Precision, Recall, and mAP@50.
+
+- **Challenges**:
+  - Variability in image quality and stone size posed challenges in detection accuracy.
+  - The need for a larger and more diverse dataset to further improve model robustness.
+
+- **References**: 📚
+  - - **Dataset**: TEZ_ROI_AUG. (2023, April 28). Retrieved from [https://universe.roboflow.com/tez-nwkf5/tez_roi_aug](https://universe.roboflow.com/tez-nwkf5/tez_roi_aug). Provided by a Roboflow user. License: CC BY 4.0.
