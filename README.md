@@ -2,7 +2,7 @@
 
 Welcome to the Medical Image Analysis Repository! Here, we leverage advanced machine learning and deep learning techniques to analyze medical images and derive valuable insights. 🌟
 
-## 💓 [Whole Heart Segmentation from CT and MRI Scans](./mm-whs-seg-keras.ipynb)
+## 💓 [Whole Heart Segmentation from CT and MRI Scans](./mm-whs-seg-keras.ipynb) 
 
 ![Whole Heart Segmentation](Sample_Mask_Overlay.png)
 
